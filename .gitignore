@@ -1,0 +1,15 @@
+﻿# PyInstaller
+build/
+dist/
+*.spec
+
+# 运行期产物
+__pycache__/
+*.pyc
+ncmstudio.log
+.ncmstudio_*.out
+_work/
+
+# 打包产物与音频样本，不进仓库
+*.zip
+*.ncm
